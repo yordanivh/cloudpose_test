@@ -5,13 +5,6 @@ terraform {
       version = "0.11.0"
     }
   }
-  cloud {
-    organization="G7"
-
-    workspaces {
-            name="new"
-    }
-  }
 }
 
 provider "awsutils" {
